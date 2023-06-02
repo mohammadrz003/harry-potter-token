@@ -91,6 +91,7 @@ const Index = (props) => {
   return (
     <Fragment>
       <div className="overflow-hidden position-relative">
+        <a href="/" id="home"></a>
         <img src="./../images/sdsad.png" className="images__head-top" alt="" />
         <Navbar />
 
@@ -110,12 +111,12 @@ const Index = (props) => {
                   Join the Wizarding World of Crypto with Harry Potter Token
                   <br className="d-none d-sm-block" /> Unlock Magical Rewards!
                 </p>
-                <NavLink
-                  to="/service"
+                <a
+                  href="#tokenomics"
                   className="bold font__size--14 text__14-1024 btn__action-more color__white ls__1 text-uppercase"
                 >
                   discover more
-                </NavLink>
+                </a>
 
                 <div className="mt-4 mb-5 mb-lg-0">
                   <div className="d-flex flex-wrap flex-sm-nowrap align-items-center">
@@ -214,6 +215,7 @@ const Index = (props) => {
         </section>
 
         <section>
+          <a href="/" id="tokenomics"></a>
           <div className="container">
             <div className="row">
               <div className="col-md-6 mb-4 my-md-auto">
@@ -375,6 +377,7 @@ const Index = (props) => {
         <SecChoose />
 
         <section>
+          <a href="/" id="faq"></a>
           <div className="container">
             <div className="row">
               <div className="col-md-6 order-md-1 order-12 my-auto">

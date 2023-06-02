@@ -20,17 +20,19 @@ const Footer = () => {
                 alt=""
               />
               <div className="wrapper__sosmed-footer ml-3 ml-md-0">
-                <a href="#!">
-                  <img src="./../images/sos (1).png" alt="" />
+                <a
+                  href="https://t.me/Hpotterog"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src="./../images/telegram.png" alt="" />
                 </a>
-                <a href="#!">
-                  <img src="./../images/sos (2).png" alt="" />
-                </a>
-                <a href="#!">
-                  <img src="./../images/sos (3).png" alt="" />
-                </a>
-                <a href="#!">
-                  <img src="./../images/sos (4).png" alt="" />
+                <a
+                  href="https://twitter.com/Hpotterog?t=GpuTBbFQaPQA6ZAfKR0CXQ&s=09"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src="./../images/twitter.png" alt="" />
                 </a>
               </div>
             </div>

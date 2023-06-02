@@ -3,6 +3,7 @@ import React from "react";
 const SecChoose = (props) => {
   return (
     <section className="position-relative">
+      <a href="/" id="roadmap"></a>
       <div className="container">
         <div
           className={"mb-5 " + (props.status == "center" ? "text-center" : "")}

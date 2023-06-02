@@ -47,27 +47,33 @@ const Navbar = (props) => {
             </div>
             <div className="menu">
               <NavLink
-                to="/"
+                to="#home"
                 className="light font__size--14 text__14-1024 color__white"
               >
                 Home
               </NavLink>
               <hr />
               <NavLink
-                to="/about"
+                to="#tokenomics"
                 className="light font__size--14 text__14-1024 color__white"
               >
-                About
+                Tokenomics
               </NavLink>
               <hr />
               <NavLink
-                to="/service"
+                to="#roadmap"
                 className="light font__size--14 text__14-1024 color__white"
               >
-                Service
+                Roadmap
               </NavLink>
-              <hr />
-              <div className="position-relative">
+              <NavLink
+                to="#faq"
+                className="light font__size--14 text__14-1024 color__white"
+              >
+                Faq
+              </NavLink>
+              {/* <hr /> */}
+              {/* <div className="position-relative">
                 <div
                   class="wrapper__drodown-wrap light font__size--14 text__14-1024 color__white pointer"
                   type="button"
@@ -121,9 +127,9 @@ const Navbar = (props) => {
                     404
                   </NavLink>
                 </div>
-              </div>
-              <hr />
-              <div className="position-relative">
+              </div> */}
+              {/* <hr /> */}
+              {/* <div className="position-relative">
                 <div
                   class="wrapper__drodown-wrap light font__size--14 text__14-1024 color__white pointer"
                   type="button"
@@ -162,14 +168,14 @@ const Navbar = (props) => {
                     Blog Detail
                   </NavLink>
                 </div>
-              </div>
+              </div> */}
               <hr />
-              <NavLink
-                to="/contact"
+              <a
+                href="mailto:Hpotter@gmail.com"
                 className="light font__size--16 text__16-1024 btn__action color__white pointer"
               >
-                Contact us
-              </NavLink>
+                Contact Us
+              </a>
             </div>
           </div>
         </div>
@@ -204,7 +210,7 @@ const Navbar = (props) => {
             <ul className="navbar-nav menu__center">
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="#home"
                   exact
                   class="nav-link light font__size--14 text__14-1024 color__white opacity__7 text-capitalize hover"
                 >
@@ -213,21 +219,21 @@ const Navbar = (props) => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/about"
+                  to="#tokenomics"
                   class="nav-link light font__size--14 text__14-1024 color__white opacity__7 text-capitalize hover"
                 >
-                  About us
+                  Tokenomics
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/service"
+                  to="#roadmap"
                   class="nav-link light font__size--14 text__14-1024 color__white opacity__7 text-capitalize hover"
                 >
-                  Service
+                  Roadmap
                 </NavLink>
               </li>
-              <li className="nav-item position-relative">
+              {/* <li className="nav-item position-relative">
                 <div
                   class="nav-link wrapper__drodown-wrap light font__size--14 text__14-1024 color__white opacity__7 hover pointer"
                   type="button"
@@ -281,8 +287,8 @@ const Navbar = (props) => {
                     404
                   </NavLink>
                 </div>
-              </li>
-              <li className="nav-item position-relative">
+              </li> */}
+              {/* <li className="nav-item position-relative">
                 <div
                   class="nav-link wrapper__drodown-wrap light font__size--14 text__14-1024 color__white opacity__7 hover pointer"
                   type="button"
@@ -321,6 +327,14 @@ const Navbar = (props) => {
                     Blog Detail
                   </NavLink>
                 </div>
+              </li> */}
+              <li className="nav-item">
+                <NavLink
+                  to="#faq"
+                  class="nav-link light font__size--14 text__14-1024 color__white opacity__7 text-capitalize hover"
+                >
+                  Faq
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -333,12 +347,12 @@ const Navbar = (props) => {
             <span></span>
             <span></span>
           </div>
-          <NavLink
-            to="/contact"
+          <a
+            href="mailto:Hpotter@gmail.com"
             className="d-none d-lg-block light font__size--16 text__16-1024 btn__action color__white  ml-auto pointer"
           >
             Contact us
-          </NavLink>
+          </a>
         </div>
       </nav>
     </Fragment>
